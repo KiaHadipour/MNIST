@@ -1,4 +1,4 @@
-# MNIST Explored by Kia Hadipour
+# Project
 
 This repository contains a Python code that uses the MNIST dataset to train four different 
 classification models to recognize handwritten digits.
