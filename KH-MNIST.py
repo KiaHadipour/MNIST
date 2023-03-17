@@ -384,7 +384,7 @@ def plot_random_digit_with_predictions(test_df, test_labels, predictions_df):
 
 if __name__ == '__main__':
     X_train, y_train, X_test, y_test = unfold_mnist_data()
-    # plot_class_counts(y_train, y_test)
+    plot_class_counts(y_train, y_test)
     model_choices = get_model_choice()
     test_df, test_labels, preds_df = train_and_compare_models(model_choices, X_train, y_train, X_test, y_test)
     plot_random_digit_with_predictions(test_df, test_labels, preds_df)
