@@ -5,9 +5,9 @@ classification models to recognize handwritten digits.
 
 ## Requirements (full dependencies listed in 'requirements.txt')
 
-•  Python 3
-•  NumPy
-•  TensorFlow
+• Python 3
+• NumPy
+• TensorFlow
 
 ## Installation
 
