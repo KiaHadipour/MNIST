@@ -1,4 +1,10 @@
-""" The present module is a machine learning pipeline """
+""" 
+The present module is a machine learning pipeline that treasts the MNIST dataset using 
+functionalities such as: data extraction, data transformation, model training, model 
+evaluation, saving trained models and metrics objects. For a detailed interpretation 
+of the code results refer to the repository's README.md file. 
+"""
+ 
 import sys
 import time
 import random
