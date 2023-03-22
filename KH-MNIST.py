@@ -93,7 +93,7 @@ def plot_class_counts(y_train, y_test):
 
 
 def get_model_choice():
-    # grab the user's choice of model(s) to train, return a list of strings containing the user's model choices.
+    # grab the user's choice of model(s) to train, return a string list of model choices.
     model_choices = [
         "LR",
         "RFC",
@@ -158,7 +158,7 @@ def predict_targets_and_calc_prediction_time(model, X_test):
     predictions = model.predict(X_test)
     # stop the timer and calculate the time taken for inference
     end = time.time()
-    # define inference time for a single digit: divide total prediction time by sample size
+    # define latency as inference time spent over a single digit
     inference_time = (end - start) / len(X_test)
     # return the predicted values and the inference time
     return predictions, np.round(inference_time*1000, 4)
@@ -264,7 +264,7 @@ def train_and_compare_models(model_choices, X_train, y_train, X_test, y_test):
     model_names = []
     predictions = []
 
-    # Scale the features of the training and test sets using the 'scale_mnist_features' function
+    # Scale the features of the training and test sets 
     X_train_scaled, X_test_scaled = scale_mnist_features(X_train, X_test)
 
     # Loop over the available model choices
@@ -317,7 +317,6 @@ def train_and_compare_models(model_choices, X_train, y_train, X_test, y_test):
     test_df = pd.DataFrame(X_test)
 
     # Create a pandas dataframe of model names and their performance results
-    # fit_predict_totals = list(sum(x) for x in zip(training_durations, inference_durations))
     model_performances = pd.DataFrame(columns=model_names,
                                       data=[training_durations,
                                             inference_durations,
