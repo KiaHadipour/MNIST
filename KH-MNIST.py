@@ -1,6 +1,6 @@
 """ 
 The present module is a machine learning pipeline that treasts the MNIST dataset using 
-functionalities such as: data extraction, data transformation, model training, model 
+these functionalities: data extraction, data transformation, model training, model 
 evaluation, saving trained models and metrics objects. For a detailed interpretation 
 of the code results visit the repository's README.md file. 
 """
