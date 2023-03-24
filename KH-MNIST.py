@@ -220,7 +220,7 @@ def compare_display_save_final_evaluations(model_performances):
     model_names = model_names.map(modelname_map)
     training_durations = model_performances.iloc[0].values
     inference_durations = model_performances.iloc[1].values
-    accuracy_scores = model_performances.iloc[2].values
+    accuracy_scores = model_performances.iloc[2].values * 100
 
     # Draw barplots for each metric using Seaborn
     fig, axs = plt.subplots(nrows=1, ncols=3, figsize=(6, 3), dpi=130)
