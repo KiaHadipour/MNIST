@@ -24,7 +24,7 @@ To train the model of your choice, run the following command: python KH-MNIST.py
 ...
 
 
-## Copyright
+## Disclaimer
 
 Any reproduction or representation of the code published in this repository is contingent on referencing 
 https://github.com/KiaHadipour/MNIST in your work.
