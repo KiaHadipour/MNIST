@@ -21,7 +21,9 @@ To train the model of your choice, run the following command: python KH-MNIST.py
 
 ## Results
 
-...
+![image](https://user-images.githubusercontent.com/33584311/228621313-c9695742-afe8-4ce0-9954-931edcb218fb.png)
+
+
 
 
 ## Disclaimer
