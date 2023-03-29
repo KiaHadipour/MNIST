@@ -15,11 +15,6 @@ To train the model of your choice, run the following command: python KH-MNIST.py
 
 ![image](https://user-images.githubusercontent.com/33584311/228621313-c9695742-afe8-4ce0-9954-931edcb218fb.png)
 
-Model	Accuracy	Train Time (ms)	Latency (ms)
-RFC	0.9695	75125.7	0.0496
-SVC	0.966	481813.9706	15.9546
-KNC	0.9443	123.0013	2.1536
-LR	0.9246	41102.4	0.0047
 ![image](https://user-images.githubusercontent.com/33584311/228629178-8f5e199a-7451-408b-8c5f-f8805b9677ed.png)
 
 Accuracy Score is a measure of how well a model predicts the correct output. Here it refers to the percentage of 
