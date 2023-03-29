@@ -1,8 +1,8 @@
 """ 
-The present module is a machine learning pipeline that treats the MNIST dataset using 
+The present module runs a machine learning task on the MNIST dataset using 
 these functionalities: data extraction, data transformation, model training, model 
-evaluation, saving trained models and metrics objects. For a detailed interpretation 
-of the code results visit the repository's README.md file. 
+evaluation, saving trained models and metrics objects. For an interpretation 
+of the pipeline results visit the repository's README.md file. 
 """
  
 import sys
