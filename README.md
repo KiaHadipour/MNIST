@@ -14,10 +14,10 @@ To train the model of your choice run the following command: python KH-MNIST.py
 
 ![image](https://user-images.githubusercontent.com/33584311/228629518-c07b972d-57b7-45cf-b4f5-e5eaa986ca01.png)
 
--The RFC had the highest accuracy score and the shortest training time.
--The SVC had the second highest accuracy score and the longest training time.
--The KNC had the third highest accuracy score and the second shortest training time.
--The LR had the lowest accuracy score and the shortest latency.
+- The RFC had the highest accuracy score and the shortest training time.
+- The SVC had the second highest accuracy score and the longest training time.
+- The KNC had the third highest accuracy score and the second shortest training time.
+- The LR had the lowest accuracy score and the shortest latency.
 
 Accuracy Score: measures how well a model predicts the correct output. Here it refers to the percentage 
 of times that the model correctly predicted the label of each input. 
