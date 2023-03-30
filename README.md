@@ -18,6 +18,7 @@ To train the model of your choice run the following command: python KH-MNIST.py
 - The LR had the lowest accuracy score and the shortest latency.
 
 Above information is otherwise shown in the table below:
+
 ![image](https://user-images.githubusercontent.com/33584311/228629518-c07b972d-57b7-45cf-b4f5-e5eaa986ca01.png)
 
 Accuracy Score: measures how well a model predicts the correct output. Here it refers to the percentage 
