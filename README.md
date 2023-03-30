@@ -22,7 +22,7 @@ To train the model of your choice run the following command: python KH-MNIST.py
 Accuracy Score: measures how well a model predicts the correct output. Here it refers to the percentage 
 of times that the model correctly predicted the label of each input. 
 
-Training Time: amount of time it takes for a model to process or "learn" from a dataset. 
+Training Time: amount of time it takes for a model to process or "learn" a dataset. 
 
 Latency: amount of time it takes for a model to make a prediction on a new input or 
 the time spent for predicting a single digit. 
