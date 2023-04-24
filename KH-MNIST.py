@@ -1,8 +1,8 @@
 """ 
-The present KH-MNIST.py module is a complete machine learning pipeline for the MNIST dataset. 
-It provides functions for data extraction, data transformation, model training, model evaluation, 
-and saving trained models and metrics objects. For an interpretation of the pipeline results, 
-please visit the repository's README.md file.
+The present module is a complete machine learning pipeline for the MNIST dataset. 
+It provides functions for data extraction, data transformation, model training, 
+model evaluation, and saving trained models and metrics objects. For an interpretation 
+of the pipeline results, please visit the repository's README.md file.
 """
  
 import sys
